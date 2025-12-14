@@ -12,9 +12,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-            child: Text("Hellow world"),
-        ),
+        body:Center(
+          child: Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.red,
+            child: Center(
+              child: Text("HI",style: TextStyle(fontSize: 30.0,color:Colors.white),),
+            ),
+          ),
+        )
       ),
     );
   }
