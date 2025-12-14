@@ -13,30 +13,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "MJS COMPANY",
       home:  Scaffold(
-        body:Column(
+        body:Row(
           children: [
             Expanded(child:Container(
               width: double.infinity,
               height: 200.0,
               color: Colors.red,
             ), ),
-            Expanded(child: Container(
+            Expanded(
+              flex: 2,
+              child: Container(
               width: double.infinity,
               height: 200.0,
               color: Colors.yellow,
             ),),
 
-            Expanded(child: Container(
+            Expanded(child:Container(
               width: double.infinity,
               height: 200.0,
-              color: Colors.blue,
-            ),),
-
-            Expanded(child: Container(
-              width: double.infinity,
-              height: 200.0,
-              color: Colors.green,
-            ),),
+              color: Colors.red,
+            ), ),
 
 
           ],
