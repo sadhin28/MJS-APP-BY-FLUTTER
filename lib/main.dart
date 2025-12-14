@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
         body:Center(
           child: Container(
             height: 200.0,
-            width: 200.0,
+            width: double.infinity,
             color: Colors.red,
             child: Center(
-              child: Text("HI",style: TextStyle(fontSize: 30.0,color:Colors.white),),
+              child: Text("HI",style: TextStyle(fontSize: 50.0,color:Colors.white, fontWeight:FontWeight.bold),),
             ),
           ),
         )
