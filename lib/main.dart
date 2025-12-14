@@ -12,15 +12,33 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body:Center(
-          child: Container(
-            height: 200.0,
-            width: double.infinity,
-            color: Colors.red,
-            child: Center(
-              child: Text("HI",style: TextStyle(fontSize: 50.0,color:Colors.white, fontWeight:FontWeight.bold),),
+        body:Column(
+          children: [
+            Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.red,
             ),
-          ),
+            Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.yellow,
+            ),
+            Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.blue,
+            ),Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.green,
+            ),
+            Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.pink,
+            )
+          ],
         )
       ),
     );
