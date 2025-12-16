@@ -20,24 +20,17 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               color: Colors.red,
             ), ),
-            Expanded(
-              flex: 2,
-              child: Padding(
-                padding: EdgeInsets.all(50.0),
-              child: Container(
-                width: double.infinity,
-                height: 200.0,
-                color: Colors.yellow,
-                child: Center(
-                  child: Text("Hi",style: TextStyle(fontSize: 50.0,fontWeight:FontWeight.bold,color: Colors.red),),
-                ),
-              ),
-            ),),
+            Expanded(child:Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.green,
+              child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/269px-Felis_catus-cat_on_snow.jpg"),
+            ), ),
 
             Expanded(child:Container(
               width: double.infinity,
               height: 200.0,
-              color: Colors.red,
+              color: Colors.blue,
             ), ),
 
 
