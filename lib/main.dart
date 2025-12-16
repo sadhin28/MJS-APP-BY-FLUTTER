@@ -22,17 +22,21 @@ class MyApp extends StatelessWidget {
             ), ),
 
             Expanded(child: Container(
-              child:Center(
-                child: Padding(
-                  padding:const EdgeInsets.all(10.0),
-                  child: CircleAvatar(
-                    backgroundColor: Colors.green,
-                    radius: 50.0,
-                    child: Icon(Icons.man,size: 60.0,),
+              child: Column(
+                children: [
+                  Container(
+                    child:Center(
+                      child: ElevatedButton(
+                          onPressed: (){
+                            print("YOU PRESS ME");
+                          },
+                          child: Text("Cick Me")),
+                    ),
                   ),
-                ),
+                ],
               ),
             )),
+
             Expanded(child:Container(
               width: double.infinity,
               height: 200.0,
