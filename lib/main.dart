@@ -20,13 +20,19 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               color: Colors.red,
             ), ),
-            Expanded(child:Container(
-              width: double.infinity,
-              height: 200.0,
-              color: Colors.green,
-              child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/269px-Felis_catus-cat_on_snow.jpg"),
-            ), ),
 
+            Expanded(child: Container(
+              child:Center(
+                child: Padding(
+                  padding:const EdgeInsets.all(10.0),
+                  child: CircleAvatar(
+                    backgroundColor: Colors.green,
+                    radius: 50.0,
+                    child: Icon(Icons.man,size: 60.0,),
+                  ),
+                ),
+              ),
+            )),
             Expanded(child:Container(
               width: double.infinity,
               height: 200.0,
