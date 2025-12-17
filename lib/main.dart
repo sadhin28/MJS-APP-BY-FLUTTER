@@ -21,29 +21,11 @@ class MyApp extends StatelessWidget {
               color: Colors.red,
             ), ),
 
-            Expanded(child: Container(
-              child: Column(
-                children: [
-                  Container(
-                    child:Center(
-                      child: ElevatedButton(
-                          onPressed: (){
-                            print("YOU PRESS ME");
-                          },
-                          child: Text("Cick Me")),
-                    ),
-                  ),
-                ],
-              ),
-            )),
-
             Expanded(child:Container(
               width: double.infinity,
-              height: 200.0,
+              height: 700.0,
               color: Colors.blue,
             ), ),
-
-
           ],
         ),
       ),
