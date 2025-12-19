@@ -52,6 +52,12 @@ class MyApp extends StatelessWidget {
               color: Colors.green,
 
             ), ),
+            Expanded(child:Container(
+              width: double.infinity,
+              height: 200.0,
+              color: Colors.purple,
+
+            ), ),
 
 
           ],
