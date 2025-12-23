@@ -28,16 +28,6 @@ class MyApp extends StatelessWidget {
             ), ),
 
 
-            Expanded(child:Container(
-              width: double.infinity,
-              height: 200.0,
-              color: Colors.red,
-            ), ),
-
-
-
-
-
           ],
         ),
       ),
