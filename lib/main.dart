@@ -15,11 +15,6 @@ class MyApp extends StatelessWidget {
       home:  Scaffold(
         body:Column(
           children: [
-            Expanded(child:Container(
-              width: double.infinity,
-              height: 200.0,
-              color: Colors.red,
-            ), ),
 
             Expanded(child:Container(
               width: double.infinity,
