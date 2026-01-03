@@ -25,9 +25,8 @@ class MyApp extends StatelessWidget {
             Expanded(child:Container(
               width: double.infinity,
               height: 700.0,
-              color: Colors.red,
+              color: Colors.yellow,
             ), ),
-
             Expanded(child:Container(
               width: double.infinity,
               height: 700.0,
