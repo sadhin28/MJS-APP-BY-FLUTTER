@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
             Expanded(child:Container(
               width: double.infinity,
               height: 700.0,
-              color: Colors.green,
+              color: Colors.red,
             ), ),
 
             Expanded(child:Container(
